@@ -8,13 +8,6 @@ let songs = [
   },
   {
     albumArt:
-      "https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e",
-    artist: "Chery Blossom Club",
-    album: "Astray (Single)",
-    name: "All Is Well - Jared Withrow.wav",
-  },
-  {
-    albumArt:
       "https://i.scdn.co/image/ab67616d00001e02066f1a88ce4c1492f016dc33",
     artist: "Jared Withrow",
     album: "All Is Well (Single)",
@@ -38,7 +31,7 @@ let songs = [
     albumArt:
       "https://www.shazam.com/mkimage/image/thumb/Music122/v4/09/7e/41/097e41aa-4970-2849-a3a6-7e0279f900af/artwork.jpg/375x375bb.webp",
     artist: "The Scally <br> Brothers",
-    album: "Live From <br> Valdosta, Georgia",
+    album: "Live From <br> (Single)",
     name: "Fireflies - Camino Kid.wav",
   },
 ];

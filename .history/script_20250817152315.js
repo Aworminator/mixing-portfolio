@@ -8,13 +8,6 @@ let songs = [
   },
   {
     albumArt:
-      "https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e",
-    artist: "Chery Blossom Club",
-    album: "Astray (Single)",
-    name: "All Is Well - Jared Withrow.wav",
-  },
-  {
-    albumArt:
       "https://i.scdn.co/image/ab67616d00001e02066f1a88ce4c1492f016dc33",
     artist: "Jared Withrow",
     album: "All Is Well (Single)",
@@ -27,20 +20,7 @@ let songs = [
     album: "Fireflies <br> (Cover)",
     name: "Fireflies - Camino Kid.wav",
   },
-  {
-    albumArt:
-      "https://i.scdn.co/image/ab67616d0000b27369a57afe6b668fe34d4e9914",
-    artist: "Philip <br> Bowen",
-    album: "Better Way <br> (Single)",
-    name: "Fireflies - Camino Kid.wav",
-  },
-  {
-    albumArt:
-      "https://www.shazam.com/mkimage/image/thumb/Music122/v4/09/7e/41/097e41aa-4970-2849-a3a6-7e0279f900af/artwork.jpg/375x375bb.webp",
-    artist: "The Scally <br> Brothers",
-    album: "Live From <br> Valdosta, Georgia",
-    name: "Fireflies - Camino Kid.wav",
-  },
+  
 ];
 
 let input = document.querySelector("#input");

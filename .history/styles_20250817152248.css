@@ -16,8 +16,8 @@ p {
   width: 300px;
   border: 2px solid black;
   background-color: rgb(255, 255, 255);
-  background: url("https://www.patternpictures.com/wp-content/uploads/Crumpled-white-paper-texture-background.jpg");
-  background-color: rgba(255, 255, 255, 0.7);
+  background: url('https://www.patternpictures.com/wp-content/uploads/Crumpled-white-paper-texture-background.jpg');
+  background-color: rgba(255,255,255,0.7);
   background-blend-mode: lighten;
   box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.535);
   border-radius: 10px;
@@ -39,14 +39,13 @@ h4 {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.18);
+  text-shadow: 2px 5px 6px rgba(0,0,0,0.18);
 }
 
 #input {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .container {
@@ -75,7 +74,7 @@ h4 {
   background: linear-gradient(
     90deg,
     rgba(231, 195, 151, 0.836) 0%,
-    rgba(133, 161, 176, 0.2) 100%
+    rgba(132, 191, 223, 0.604) 100%
   );
   border-radius: 10px;
   padding: 5px 10px;

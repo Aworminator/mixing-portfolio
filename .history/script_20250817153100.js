@@ -9,8 +9,8 @@ let songs = [
   {
     albumArt:
       "https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e",
-    artist: "Chery Blossom Club",
-    album: "Astray (Single)",
+    artist: "Jared Withrow",
+    album: "All Is Well (Single)",
     name: "All Is Well - Jared Withrow.wav",
   },
   {

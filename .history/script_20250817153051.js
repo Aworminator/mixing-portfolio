@@ -8,9 +8,9 @@ let songs = [
   },
   {
     albumArt:
-      "https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e",
-    artist: "Chery Blossom Club",
-    album: "Astray (Single)",
+      "https://i.scdn.co/image/ab67616d00001e02066f1a88ce4c1492f016dc33",
+    artist: "Jared Withrow",
+    album: "All Is Well (Single)",
     name: "All Is Well - Jared Withrow.wav",
   },
   {
@@ -27,7 +27,7 @@ let songs = [
     album: "Fireflies <br> (Cover)",
     name: "Fireflies - Camino Kid.wav",
   },
-  {
+  {https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e
     albumArt:
       "https://i.scdn.co/image/ab67616d0000b27369a57afe6b668fe34d4e9914",
     artist: "Philip <br> Bowen",

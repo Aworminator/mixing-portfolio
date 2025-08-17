@@ -16,9 +16,6 @@ p {
   width: 300px;
   border: 2px solid black;
   background-color: rgb(255, 255, 255);
-  background: url("https://www.patternpictures.com/wp-content/uploads/Crumpled-white-paper-texture-background.jpg");
-  background-color: rgba(255, 255, 255, 0.7);
-  background-blend-mode: lighten;
   box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.535);
   border-radius: 10px;
   margin: 90px;
@@ -39,14 +36,12 @@ h4 {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.18);
 }
 
 #input {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .container {
@@ -74,8 +69,8 @@ h4 {
 .band-info {
   background: linear-gradient(
     90deg,
-    rgba(231, 195, 151, 0.836) 0%,
-    rgba(133, 161, 176, 0.2) 100%
+    rgba(231, 195, 151, 0.494) 0%,
+    rgba(147, 213, 248, 0.2) 100%
   );
   border-radius: 10px;
   padding: 5px 10px;

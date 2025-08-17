@@ -72,11 +72,8 @@ h4 {
 }
 
 .band-info {
-  background: linear-gradient(
-    90deg,
-    rgba(231, 195, 151, 0.836) 0%,
-    rgba(133, 161, 176, 0.2) 100%
-  );
+  background: url("https://img.freepik.com/free-vector/grey-grunge-paint-texture-background_1409-2929.jpg?semt=ais_hybrid&w=740&q=80");
+  background-blend-mode:color;
   border-radius: 10px;
   padding: 5px 10px;
   height: 30px;

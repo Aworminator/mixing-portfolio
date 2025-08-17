@@ -72,11 +72,7 @@ h4 {
 }
 
 .band-info {
-  background: linear-gradient(
-    90deg,
-    rgba(231, 195, 151, 0.836) 0%,
-    rgba(133, 161, 176, 0.2) 100%
-  );
+  
   border-radius: 10px;
   padding: 5px 10px;
   height: 30px;
@@ -91,6 +87,7 @@ h4 {
   position: relative;
   bottom: 5px;
   box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.18);
+  
 }
 
 .artist,
