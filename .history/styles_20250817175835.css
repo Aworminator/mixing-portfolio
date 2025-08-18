@@ -1,0 +1,216 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gothic-a1-regular {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h3 {
+  opacity: 80%;
+}
+
+.main-pic {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  height: 900px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+.header {
+  position: relative;
+  bottom: 700px;
+  z-index: 1;
+  font-size: 3.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.467);
+  box-shadow: -8px 14px 20px 4px rgb(0 0 0 / 69%);
+}
+
+.work-button {
+  position: relative;
+  bottom: 700px;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.62);
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  background: url("https://www.patternpictures.com/wp-content/uploads/Crumpled-white-paper-texture-background.jpg");
+  background-color: rgba(255, 255, 255, 0.775);
+  background-blend-mode: lighten;
+  box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.535);
+  border-radius: 10px;
+  margin: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.18);
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.audio-examples {
+  /* display: flex;
+  justify-content: center;
+  border: 5px solid black; */
+}
+
+.album-artwork {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.band-info {
+  border-radius: 10px;
+  padding: 5px 10px;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.album-title {
+  position: relative;
+  bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.fa-pause,
+.fa-play {
+  font-size: 2em;
+  position: relative;
+  right: 12px;
+}
+
+.fa-play:active {
+  font-size: 2em;
+  position: relative;
+  transform: scale(0.8);
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0 0;
+  margin-bottom: 25px;
+}
+
+.progress-bar {
+  background-color: white;
+  border-radius: 40px;
+  color: black;
+  width: 150px;
+  height: 12px;
+  border: 1px solid rgb(221, 144, 99);
+}
+
+.progress {
+  background-color: rgb(244, 164, 117);
+  border-radius: 40px;
+  height: 100%;
+  width: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  body {
+    /* width: 100%;
+    transform: scale(0.9); */
+  }
+}
