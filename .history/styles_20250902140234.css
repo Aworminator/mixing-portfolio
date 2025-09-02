@@ -1,0 +1,496 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gothic-a1-regular {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  opacity: 80%;
+}
+
+.main-pic {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  height: 900px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+.home-page {
+  height: 900px;
+}
+
+.about-me {
+  height: 900px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.about-info {
+  color: white;
+  font-size: 1.5em;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.videos {
+  margin: 0 auto;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.my-work {
+  font-size: 3em;
+  text-align: center;
+}
+
+.Selected {
+  text-align: center;
+  opacity: 70%;
+  position: relative;
+  bottom: 15px;
+}
+
+.front-shot {
+  float: right;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.header {
+  position: relative;
+  bottom: 700px;
+  z-index: 1;
+  font-size: 3.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.467);
+  box-shadow: -8px 14px 20px 4px rgb(0 0 0 / 69%);
+}
+
+.work-button {
+  position: relative;
+  bottom: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 60px;
+  border-radius: 7px;
+  margin: 0 auto;
+  box-shadow: 8px 9px 10px rgb(0 0 0 / 65%);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.work-button:hover {
+  transform: scale(1.1);
+}
+
+.work-button:active {
+  transform: scale(0.9);
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  background: url("https://www.patternpictures.com/wp-content/uploads/Crumpled-white-paper-texture-background.jpg");
+  background-color: rgba(255, 255, 255, 0.775);
+  background-blend-mode: lighten;
+  box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.535);
+  border-radius: 10px;
+  margin: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h4 {
+  font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.18);
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.audio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.album-artwork {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.band-info {
+  border-radius: 10px;
+  padding: 5px 10px;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.album-title {
+  position: relative;
+  bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.fa-pause,
+.fa-play {
+  font-size: 2em;
+  position: relative;
+  right: 12px;
+}
+
+.fa-play:active {
+  font-size: 2em;
+  position: relative;
+  transform: scale(0.8);
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0 0;
+  margin-bottom: 25px;
+}
+
+.progress-bar {
+  background-color: white;
+  border-radius: 40px;
+  color: black;
+  width: 150px;
+  height: 12px;
+  border: 1px solid rgb(221, 144, 99);
+}
+
+.progress {
+  background-color: rgb(244, 164, 117);
+  border-radius: 40px;
+  height: 100%;
+  width: 0%;
+}
+
+/* Contact Section Styles */
+.contact {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 80px 20px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-form-container h1 {
+  color: #2d2d2d;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  background: #fafafa;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4a90e2;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  transform: translateY(-2px);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  font-family: "Nunito", sans-serif;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(74, 144, 226, 0.4);
+  background: linear-gradient(135deg, #357abd 0%, #2968a3 100%);
+}
+
+.contact-form button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+}
+
+/* Discography Button Styles (matching send button) */
+.Discography {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 30px auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.Discography:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(74, 144, 226, 0.4);
+  background: linear-gradient(135deg, #357abd 0%, #2968a3 100%);
+  color: white;
+}
+
+.Discography:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+}
+
+.spotify {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+/* Responsive Design for Contact Form */
+@media screen and (max-width: 768px) {
+
+  .main-pic {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  height: 400px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+.header {
+  bottom: 250px;
+  font-size: 0.9em;
+}
+
+.work-button {
+  position: relative;
+  bottom: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 30px;
+}
+
+.about-info {
+  color: white;
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.front-shot {
+  height: 175px;
+  width: 175px;
+}
+
+
+  .contact {
+    padding: 60px 15px;
+  }
+
+  .contact-form-container {
+    padding: 40px 25px;
+    margin: 0 10px;
+  }
+
+  .contact-form-container h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 15px;
+  }
+
+  .contact-form button {
+    padding: 15px 25px;
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
