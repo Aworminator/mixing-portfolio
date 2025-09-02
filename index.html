@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mixing Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -79,7 +79,7 @@
         </p>
       </div>
     </section>
-    <section class="audio-examples">
+    <section class="audio-examples" id="work">
       <h1 class="my-work">My Work</h1>
       <h2 class="Selected">(Selected Discography)</h2>
       <div class="videos">
@@ -142,12 +142,7 @@
     <section class="contact">
       <div class="contact-form-container">
         <h1>Contact Me</h1>
-        <form
-          class="contact-form"
-          action="mailto:your.email@example.com"
-          method="POST"
-          enctype="text/plain"
-        >
+        <form class="contact-form" id="contact-form" autocomplete="off">
           <div class="form-group">
             <label for="name">Name*</label>
             <input type="text" id="name" name="name" required />
@@ -166,5 +161,45 @@
     </section>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "Av33DaVyg5wDM5N9s",
+        });
+      })();
+
+      function sendEmail(event) {
+        event.preventDefault();
+
+        const serviceID = "service_x2fv1ji";
+        const templateID = "template_xrm7y6m";
+
+        emailjs
+          .sendForm(
+            serviceID,
+            templateID,
+            document.getElementById("contact-form")
+          )
+          .then(
+            () => {
+              alert("Message sent successfully!");
+              document.getElementById("contact-form").reset();
+            },
+            (error) => {
+              alert("Failed to send message. Please try again later.");
+              console.error("EmailJS Error:", error);
+            }
+          );
+      }
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", sendEmail);
+    </script>
   </body>
 </html>

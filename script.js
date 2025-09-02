@@ -15,7 +15,7 @@ let songs = [
       "https://i.scdn.co/image/ab67616d0000b27369a57afe6b668fe34d4e9914",
     artist: "Philip Bowen",
     song: "Better Way",
-    name: "Fireflies - Camino Kid.wav",
+    name: "Better Way - Philip Bowen.wav",
     artistLink:
       "https://open.spotify.com/artist/3Mm4P393IFVqIQDmL691G9?si=A1uk_0hjSPOLajqtXdFjjQ",
     songLink:
@@ -26,7 +26,7 @@ let songs = [
       "https://i.scdn.co/image/ab67616d00001e02c0d49229ee1521c01ba40c3e",
     artist: "Chery Blossom Club",
     song: "Astray",
-    name: "All Is Well - Jared Withrow.wav",
+    name: "Cherry Blossom Club - Astray.mp3",
     artistLink:
       "https://open.spotify.com/artist/7LDoytlH8MNe9zu2VIu5uB?si=W9AvoN22T46V6yPUWuvBdA",
     songLink:
@@ -58,7 +58,7 @@ let songs = [
       "https://www.shazam.com/mkimage/image/thumb/Music122/v4/09/7e/41/097e41aa-4970-2849-a3a6-7e0279f900af/artwork.jpg/375x375bb.webp",
     artist: "The Scally Brothers",
     song: "Lion and the Lamb",
-    name: "Fireflies - Camino Kid.wav",
+    name: "The Scally Brothers - Lion And The Lamb Live.wav",
     artistLink:
       "https://open.spotify.com/artist/1zxZJBr1JIL8X4zDvpkFos?si=ZAqeO_ZFRFWOyXo424s7Ng",
     songLink:
@@ -66,7 +66,17 @@ let songs = [
   },
 ];
 
+let workButton = document.querySelector(".work-button");
+let work = document.querySelector("#work");
 let input = document.querySelector("#input");
+
+workButton.addEventListener("click", () => {
+  work.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest",
+  });
+});
 
 function updateProgress(e, songName) {
   let { currentTime, duration } = e.srcElement;
