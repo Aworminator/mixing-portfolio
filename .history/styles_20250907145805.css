@@ -432,7 +432,7 @@ h4 {
   }
 
   .main-pic {
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .about-me {

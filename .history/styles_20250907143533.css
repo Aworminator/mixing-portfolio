@@ -44,6 +44,8 @@ html {
   font-size: 6vw;
 }
 
+/* Removed duplicate .overlay block with bottom: 50%. Only the first .overlay block remains for correct centering. */
+
 .overlay h1 {
   font-size: clamp(2rem, 5vw, 4rem); /* responsive text */
 }
@@ -178,7 +180,6 @@ h4 {
 #input {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -427,14 +428,6 @@ h4 {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  .card {
-    margin: 40px auto; /* centers horizontally with smaller spacing */
-  }
-
-  .main-pic {
-    object-fit: cover;
-  }
-
   .about-me {
     min-height: 1100px;
     padding: 20px 0px 20px 0px;

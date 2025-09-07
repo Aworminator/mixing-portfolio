@@ -427,14 +427,6 @@ h4 {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  .card {
-    margin: 40px auto; /* centers horizontally with smaller spacing */
-  }
-
-  .main-pic {
-    object-fit: cover;
-  }
-
   .about-me {
     min-height: 1100px;
     padding: 20px 0px 20px 0px;
@@ -495,5 +487,9 @@ h4 {
   .video {
     height: 400px;
     width: 700px;
+  }
+
+  .card {
+    margin: 40px auto; /* centers horizontally with smaller spacing */
   }
 }

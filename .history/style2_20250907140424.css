@@ -1,0 +1,26 @@
+.container {
+  display: block;
+  overflow: hidden;
+  height: 700px;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.work-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 50px;
+  max-width: 150px;
+  padding: 15px;
+  border-radius: 10%;
+}

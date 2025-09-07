@@ -431,8 +431,8 @@ h4 {
     margin: 40px auto; /* centers horizontally with smaller spacing */
   }
 
-  .main-pic {
-    object-fit: cover;
+  .container {
+    object-fit: contain;
   }
 
   .about-me {
